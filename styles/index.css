@@ -1,0 +1,118 @@
+/* Universal */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(42, 24, 108, 1);
+    color: white;
+    font-family: Inter;
+}
+/* navbar */
+nav{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 20px;
+    
+    
+}
+nav>h2{
+    font-size:40px ;
+    font-weight: 700;
+}
+nav>h2>span{
+        color: rgb(243,7,109);
+}
+nav>ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;    
+}
+nav>ul>li{
+   
+    align-content: center;
+}
+nav>button{
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+  color: white;
+  justify-content: center;
+align-items: center;
+gap: 4;
+padding: 12px 16px 12px 16px;
+border: 1px solid black;
+border-radius: 10000px;
+}
+nav>img{
+    display: none;
+}
+/* banner */
+section>.hero-bg>img{
+    max-width: 100%;
+}
+.hero-bg{
+   position:relative
+}
+.hero-circle{
+    position: absolute;
+    left: 39%;
+    top: 25%;
+}
+.hero-mic{
+    position: absolute;
+    left: 46.6%;
+    top: 36.8%;
+}
+.new{
+    font-size: 20;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 30px;
+ 
+    background-color: rgb(42, 207, 42);
+    width: 70px;
+      padding:8px;
+      position: absolute;
+      left: 57%;
+      top: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    nav>h2{
+        margin-left:50px;
+    }
+    nav>button{
+        display: none;
+    }
+    nav>ul>li{
+        display: none;
+    }
+     nav>img {
+    display: inline;
+    margin-right: 50px;
+    height: 15px;
+    padding-top: 20px;
+}
+}
