@@ -39,7 +39,7 @@ nav>h2{
     font-weight: 700;
 }
 nav>h2>span{
-        color: rgb(243,7,109);
+        color: rgb(250, 5, 111);
 }
 nav>ul{
     display: flex;
@@ -229,7 +229,110 @@ main{
      text-align: center;
 }
 
+/* featured */
+ .featured{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 90px;
+ }
+ .featured>h2{
+    text-align: center;
+    padding-bottom:34px ;
+ }
+ .card-parent{
+    display: flex;
+    justify-content: space-between;
+    /* overflow: hidden; */
+ }
+ .card{
+    width: 350px;
+     margin: 0px;
+    padding: 0px;
+    
+ }
+ .card>iframe{
+    border-radius: 25px;
+ }
+ .video-details{
+    padding: 10px;
+ }
+ .time{
+    display: flex;
+    gap: 10px;
+    color:rgba(0, 255, 136, 1) ;
+ }
+ /*host  */
+.host{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+}
+.host>h2{
+     text-align: center;
+    padding-bottom:34px ;
+}
+.hoster{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.h3{
+    font-size: 2.25rem;
+}
+.link{
+    display: flex;
+    gap: 15px;
+}
+.social{
+    border: 1px solid rgb(211, 136, 31);
+    border-radius: 50%;
+}
+.social img{
+    padding: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
 
+/* footer */
+ .footer{
+background: url(../assets/footer-bg.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: left right;
+    /* max-width: 1240px; */
+    /* margin: 0 auto; */
+    margin-bottom: 40px;
+ }
+ .footer-container h2{
+    font-size: 3.75rem;
+text-align: center;
+padding-top: 120px;
+padding-bottom: 10px;
+ }
+ .footer-container{
+    padding-bottom: 100px;
+ }
+ 
+
+ .midea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  .link-2{
+    display: flex;
+    padding-left: 32px;
+    align-items: center;
+    gap: 7px;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .footer-container>h2>span{
+     color: rgb(250, 5, 111);
+  }
 
 
 
@@ -331,6 +434,37 @@ main{
 .grid>h2{
     font-size: 2rem;
 }
+
+.featured>h2{
+    font-size:2rem ;
+}
+.card-parent{
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.host h2{
+    font-size: 2rem;
+}
+.about-host h3{
+ font-size: 1.75rem;
+}
+.hoster{
+    flex-direction: column;
+    text-align: center;
+}
+.link{
+    padding-left: 90px;
+}
+
+
+.midea{
+
+    flex-direction: column;
+}
+
+
+
 
 
 
